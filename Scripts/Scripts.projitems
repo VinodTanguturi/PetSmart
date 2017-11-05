@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>23632339-c087-4a71-ba78-050adf7e7e55</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Scripts</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)DataTypes\Empty.sql" />
+    <None Include="$(MSBuildThisFileDirectory)Functions\Empty.sql" />
+    <None Include="$(MSBuildThisFileDirectory)Procedures\Empty.sql" />
+    <None Include="$(MSBuildThisFileDirectory)Tables\Empty.sql" />
+  </ItemGroup>
+</Project>
